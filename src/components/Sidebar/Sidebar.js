@@ -8,13 +8,16 @@ import PeopleIcon from '@material-ui/icons/People';
 import ChatIcon from '@material-ui/icons/Chat';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
+import { useStateValue } from '../../StateProvider';
 
 function Sidebar() {
+  const [{user} , dispatch] = useStateValue();
+
   return (
     <div className="sidebar">
       <SidebarRow
-        src="https://avatars3.githubusercontent.com/u/30196405?s=460&u=6bd3c8280b827a0ea3f661fc7c0c65117b19bc61&v=4"
-        title="Goon Devsky"
+        src={user.photoURL}
+        title={user.displayName}
       />
       <SidebarRow
         Icon={LocalHospitalIcon}
