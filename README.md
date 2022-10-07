@@ -1,6 +1,6 @@
 ### Facebook clone / React / Firebase
 
-Online @ https://fb-clone-963d8.firebaseapp.com/
+Online @ https://fb-clone-5e184.web.app/
 
 ⚙️ Technology:
 
@@ -30,7 +30,7 @@ Online @ https://fb-clone-963d8.firebaseapp.com/
 
 ### SOON
 
-- Want to close this version of app and start new one.
-- Change Firebase with PostgreqSL and Auth0.
-- Do some visual changes.
-- Add more features like friendsBook, chatting...
+- Want to close this version of app and start new one:
+  - Change Firebase with PostgreSQL and Auth0.
+  - Do some visual changes.
+  - Add more features like friendsBook, chatting...
