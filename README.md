@@ -10,6 +10,11 @@ Online @ https://fb-clone-5e184.web.app/
 ### Description:
 
 - I have build a "Facebook Clone with REACT JS for Beginners!" with Clever Programmer @ Youtube.
+
+- WORKS:
+  - Login with Google
+  - Ability to add comment wtih image (no upload only image url) to main wall visible to everyone.
+
 - You need to provide your own firebaseConfig in `src/firebase.js`
 
   Go to `https://console.firebase.google.com/u/0/` and make `new project`
